@@ -20,5 +20,7 @@ print("A média dos alunos impar foi: " + str(media_impar) + ". E a média dos a
 
 if media_impar > media_par:
     print("A turma impar obteve a maior nota comparado com a turma par.")
+elif media_impar == media_par:
+    print("As duas turmas empataram!")
 else:
     print("A turma par obteve a maior nota comparado com a turma impar")
